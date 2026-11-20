@@ -1,0 +1,1672 @@
+{
+  "total": 35,
+  "count": 35,
+  "offset": 0,
+  "query": {
+    "country": "ID",
+    "dedupe": "group",
+    "premium": "false",
+    "drm": "false",
+    "limit": "500"
+  },
+  "items": [
+    {
+      "id": "antv",
+      "group": "antv",
+      "name": "ANTV",
+      "tagline": "Andalas Televisi",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://proxy-v.rctiplus.id/live/web/antv/index.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://www.rctiplus.com/",
+        "Origin": "https://www.rctiplus.com"
+      },
+      "logo": "732872e4db05.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 427,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.541Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (MNC Proxy SSL)",
+          "stream": "https://proxy-v.rctiplus.id/live/web/antv/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        },
+        {
+          "name": "Server 2 (MNC Proxy HTTP)",
+          "stream": "http://proxy-v.rctiplus.id/live/web/antv/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "btv",
+      "group": "btv",
+      "name": "BTV",
+      "tagline": "BTV â€” Bersatu Menginspirasi (B Universe)",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0"
+      },
+      "logo": "9f7284e12c35.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": true,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 719,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.602Z"
+      },
+      "relay_stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h313/S1/mnf.m3u8",
+      "servers": [
+        {
+          "name": "Server 1 (Tenbyte CDN)",
+          "stream": "https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0"
+          }
+        },
+        {
+          "name": "Server 2 (Dens h313)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h313/S1/mnf.m3u8",
+          "headers": {
+            "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cnbc-indonesia",
+      "group": "cnbcindonesia",
+      "name": "CNBC Indonesia",
+      "tagline": "CNBC Indonesia â€” berita ekonomi",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://www.detik.com/"
+      },
+      "logo": "67a451febb59.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 1875,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.605Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Detik CDN)",
+          "stream": "https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.detik.com/"
+          }
+        },
+        {
+          "name": "Server 2 (Detik CDN Chunklist)",
+          "stream": "https://video.detik.com/livecnbc/smil:cnbctv.smil/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.detik.com/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cnn-indonesia",
+      "group": "cnnindonesia",
+      "name": "CNN Indonesia",
+      "tagline": "CNN Indonesia â€” Menampilkan Fakta dan Analisis",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://video.detik.com/livecnn/smil:cnntv/chunklist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://www.detik.com/"
+      },
+      "logo": "91475081dee9.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 180,
+        "error": null,
+        "checked_at": "2026-11-19T04:54:32.454Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Detik CDN)",
+          "stream": "https://video.detik.com/livecnn/smil:cnntv/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.detik.com/"
+          }
+        },
+        {
+          "name": "Server 2 (CNBC Live CDN)",
+          "stream": "https://live.cnbcindonesia.com/livecnn/smil:cnntv.smil/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.detik.com/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "daai-tv",
+      "group": "daaitv",
+      "name": "DAAI TV",
+      "tagline": "DAAI TV â€” televisi cinta kasih",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://www.daai.tv/",
+        "Origin": "https://www.daai.tv"
+      },
+      "logo": "91b85739d7cd.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 616,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.607Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (DAAI Plus SSL)",
+          "stream": "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.daai.tv/",
+            "Origin": "https://www.daai.tv"
+          }
+        },
+        {
+          "name": "Server 2 (DAAI Plus HTTP)",
+          "stream": "http://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.daai.tv/",
+            "Origin": "https://www.daai.tv"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gtv",
+      "group": "gtv",
+      "name": "GTV",
+      "tagline": "Global TV",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://allcutv.rctiplus.id/gtv2023.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://www.rctiplus.com/",
+        "Origin": "https://www.rctiplus.com"
+      },
+      "logo": "8216776ceff4.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 355,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.609Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (MNC Direct 1080p)",
+          "stream": "https://allcutv.rctiplus.id/gtv2023.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        },
+        {
+          "name": "Server 2 (MNC Direct HTTP)",
+          "stream": "http://allcutv.rctiplus.id/gtv2023.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indosiar",
+      "group": "indosiar",
+      "name": "Indosiar",
+      "tagline": "Indosiar Visual Mandiri",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://vidsemar.pages.dev/terraluna3/205.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://www.vidio.com/"
+      },
+      "logo": "146bc42132e1.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": true,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 416,
+        "error": null,
+        "checked_at": "2026-11-20T00:00:00.000Z"
+      },
+      "relay_stream": "https://vidsemar.pages.dev/terraluna3/205.m3u8",
+      "servers": [
+        {
+          "name": "Server 1 (Vidio HLS 205)",
+          "stream": "https://vidsemar.pages.dev/terraluna3/205.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.vidio.com/"
+          }
+        },
+        {
+          "name": "Server 2 (Dens HLS 235)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h235/index.m3u8",
+          "headers": {
+            "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inews",
+      "group": "inews",
+      "name": "iNews",
+      "tagline": "iNews TV (MNC)",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://proxy-v.rctiplus.id/live/web/inews/index.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://www.rctiplus.com/",
+        "Origin": "https://www.rctiplus.com"
+      },
+      "logo": "0087b5d33b7f.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 162,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.614Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (MNC Official Edge)",
+          "stream": "https://proxy-v.rctiplus.id/live/web/inews/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        },
+        {
+          "name": "Server 2 (MNC Direct 1080p)",
+          "stream": "https://allcutv.rctiplus.id/inews2023.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        },
+        {
+          "name": "Server 3 (MNC Direct HTTP)",
+          "stream": "http://allcutv.rctiplus.id/inews2023.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kompas-tv",
+      "group": "kompastv",
+      "name": "Kompas TV",
+      "tagline": "Inspirasi Indonesia",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "http://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
+        "Referer": "https://www.dens.tv/",
+        "Origin": "https://www.dens.tv",
+        "Accept": "*/*"
+      },
+      "logo": "kompastv.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 150,
+        "error": null,
+        "checked_at": "2026-11-19T06:11:16.308Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Dens 720p Direct)",
+          "stream": "http://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Dens Adaptive Master)",
+          "stream": "http://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 3 (Dens SSL HTTPS)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 4 (Dens 360p Low)",
+          "stream": "http://op-flashcon-digdayahd-1.dens.tv/s/s104/02.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "metro-tv",
+      "group": "metrotv",
+      "name": "Metro TV",
+      "tagline": "MetroTV â€” berita 24 jam",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://www.metrotvnews.com/",
+        "Origin": "https://www.metrotvnews.com"
+      },
+      "logo": "2eee7298fbc8.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 2188,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.615Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Medcom Edge SSL)",
+          "stream": "https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.metrotvnews.com/",
+            "Origin": "https://www.metrotvnews.com"
+          }
+        },
+        {
+          "name": "Server 2 (Medcom Edge HTTP)",
+          "stream": "http://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.metrotvnews.com/",
+            "Origin": "https://www.metrotvnews.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mnctv",
+      "group": "mnctv",
+      "name": "MNCTV",
+      "tagline": "MNC Televisi Indonesia",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://allcutv.rctiplus.id/mnctv2023.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://www.rctiplus.com/",
+        "Origin": "https://www.rctiplus.com"
+      },
+      "logo": "c25f7d5090ef.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 185,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.776Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (MNC Direct 1080p)",
+          "stream": "https://allcutv.rctiplus.id/mnctv2023.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        },
+        {
+          "name": "Server 2 (MNC Direct HTTP)",
+          "stream": "http://allcutv.rctiplus.id/mnctv2023.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "moji",
+      "group": "moji",
+      "name": "Moji",
+      "tagline": "Moji (bekas O Channel)",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://vidsemar.pages.dev/terraluna3/206.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://www.vidio.com/"
+      },
+      "logo": "b50b6c0ef6a8.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": true,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 793,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.940Z"
+      },
+      "relay_stream": "https://vidsemar.pages.dev/terraluna3/206.m3u8",
+      "servers": [
+        {
+          "name": "Server 1 (Vidio HLS 206)",
+          "stream": "https://vidsemar.pages.dev/terraluna3/206.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.vidio.com/"
+          }
+        },
+        {
+          "name": "Server 2 (Dens h207)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h207/02.m3u8",
+          "headers": {
+            "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nettv",
+      "group": "nettv",
+      "name": "NET.",
+      "tagline": "Televisi Masa Kini",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "http://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
+        "Referer": "https://www.dens.tv/",
+        "Origin": "https://www.dens.tv",
+        "Accept": "*/*"
+      },
+      "logo": "nettv.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 85,
+        "checked_at": "2026-11-19T06:47:14.499Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Dens Adaptive Master)",
+          "stream": "http://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Dens SSL HTTPS)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nusantara-tv",
+      "group": "nusantaratv",
+      "name": "Nusantara TV",
+      "tagline": "Nusantara TV â€” Sahabat Kita",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
+      },
+      "logo": "470a980ee839.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 1054,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.961Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Siar.us SSL)",
+          "stream": "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Server 2 (Siar.us HTTP)",
+          "stream": "http://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcti",
+      "group": "rcti",
+      "name": "RCTI",
+      "tagline": "Rajawali Citra Televisi Indonesia",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://allcutv.rctiplus.id/rcti2023.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://www.rctiplus.com/",
+        "Origin": "https://www.rctiplus.com"
+      },
+      "logo": "bae1f1959343.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 66,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.965Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (MNC Direct 1080p)",
+          "stream": "https://allcutv.rctiplus.id/rcti2023.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        },
+        {
+          "name": "Server 2 (MNC Direct HTTP)",
+          "stream": "http://allcutv.rctiplus.id/rcti2023.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rtv",
+      "group": "rtv",
+      "name": "RTV",
+      "tagline": "Rajawali Televisi",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://proxy-v.rctiplus.id/live/web/rtv/index.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://www.rctiplus.com/",
+        "Origin": "https://www.rctiplus.com"
+      },
+      "logo": "098ed70c7742.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 153,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:09.970Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (MNC Proxy SSL)",
+          "stream": "https://proxy-v.rctiplus.id/live/web/rtv/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        },
+        {
+          "name": "Server 2 (MNC Proxy HTTP)",
+          "stream": "http://proxy-v.rctiplus.id/live/web/rtv/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sctv",
+      "group": "sctv",
+      "name": "SCTV",
+      "tagline": "Surya Citra Televisi",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://vidsemar.pages.dev/terraluna3/204.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://www.vidio.com/"
+      },
+      "logo": "8944661ee897.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": true,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 180,
+        "error": null,
+        "checked_at": "2026-11-20T00:00:00.000Z"
+      },
+      "relay_stream": "https://vidsemar.pages.dev/terraluna3/204.m3u8",
+      "servers": [
+        {
+          "name": "Server 1 (Vidio HLS 204)",
+          "stream": "https://vidsemar.pages.dev/terraluna3/204.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.vidio.com/"
+          }
+        },
+        {
+          "name": "Server 2 (Dens HLS 217)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h217/index.m3u8",
+          "headers": {
+            "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv"
+          }
+        }
+      ]
+    },
+    {
+      "id": "trans7",
+      "group": "trans7",
+      "name": "Trans7",
+      "tagline": "Trans7 (Trans Media)",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://live.cnbcindonesia.com/trans7/smil:trans7.smil/chunklist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://www.detik.com/"
+      },
+      "logo": "a2a864b4ae5b.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 4072,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:10.124Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (CNBC Live CDN)",
+          "stream": "https://live.cnbcindonesia.com/trans7/smil:trans7.smil/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.detik.com/"
+          }
+        },
+        {
+          "name": "Server 2 (CNBC Master Playlist)",
+          "stream": "https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.detik.com/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transtv",
+      "group": "transtv",
+      "name": "TransTV",
+      "tagline": "Trans TV (Trans Media)",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://live.cnbcindonesia.com/transtv/smil:transtv.smil/chunklist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://www.detik.com/"
+      },
+      "logo": "e76349719cab.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 5286,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:10.223Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (CNBC Live CDN)",
+          "stream": "https://live.cnbcindonesia.com/transtv/smil:transtv.smil/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.detik.com/"
+          }
+        },
+        {
+          "name": "Server 2 (CNBC Master Playlist)",
+          "stream": "https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://www.detik.com/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tvone",
+      "group": "tvone",
+      "name": "tvOne",
+      "tagline": "tvOne â€” berita & olahraga",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://proxy-v.rctiplus.id/live/web/tvone/index.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Referer": "https://www.rctiplus.com/",
+        "Origin": "https://www.rctiplus.com"
+      },
+      "logo": "20fb5f958e5c.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 263,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:10.816Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (MNC Proxy SSL)",
+          "stream": "https://proxy-v.rctiplus.id/live/web/tvone/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        },
+        {
+          "name": "Server 2 (MNC Proxy HTTP)",
+          "stream": "http://proxy-v.rctiplus.id/live/web/tvone/index.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Referer": "https://www.rctiplus.com/",
+            "Origin": "https://www.rctiplus.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tvri",
+      "group": "tvri",
+      "name": "TVRI",
+      "tagline": "Televisi Republik Indonesia â€” Saluran Pemersatu Bangsa",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
+      },
+      "logo": "15d7d8a1bce1.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 649,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:11.016Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (TVRI Balancer SSL)",
+          "stream": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Server 2 (TVRI Balancer HTTP)",
+          "stream": "http://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tvri-world",
+      "group": "tvriworld",
+      "name": "TVRI World",
+      "tagline": "TVRI World â€” Indonesian Global Channel",
+      "country": "ID",
+      "regional": false,
+      "region": null,
+      "type": "hls",
+      "premium": false,
+      "stream": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
+      },
+      "logo": "548d7b123b36.png",
+      "has_drm": false,
+      "source": "national",
+      "national": true,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 655,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:11.079Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (TVRI Balancer SSL)",
+          "stream": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Server 2 (TVRI Balancer HTTP)",
+          "stream": "http://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
+          }
+        }
+      ]
+    },
+    {
+      "id": "astro-blitar-tv",
+      "group": "astroblitartv",
+      "name": "Astro Blitar TV",
+      "tagline": "TV lokal Jawa Timur â€” Blitar",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "http://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": null,
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 2183,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:15.172Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "http://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Wowza chunklist)",
+          "stream": "http://5bf7b725107e5.streamlock.net/abtv/abtv/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brtv",
+      "group": "brtv",
+      "name": "BRTV",
+      "tagline": "TV lokal Jawa Timur â€” Surabaya",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "http://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": null,
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 3900,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:15.510Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "http://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Wowza chunklist)",
+          "stream": "http://5bf7b725107e5.streamlock.net/brtv/brtv/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dhoho-tv",
+      "group": "dhohotv",
+      "name": "Dhoho TV",
+      "tagline": "TV lokal Jawa Timur â€” Kediri",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "https://dhohotv.siar.us/dhohotv/live/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": null,
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 419,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:16.747Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "https://dhohotv.siar.us/dhohotv/live/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Cadangan)",
+          "stream": "http://dhohotv.siar.us/dhohotv/live/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jtv-kediri",
+      "group": "jtvkediri",
+      "name": "JTV Kediri",
+      "tagline": "TV lokal Jawa Timur â€” Kediri",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": "jtv.png",
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 7539,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:19.412Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Cadangan Chunklist)",
+          "stream": "http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jtv-madiun",
+      "group": "jtvmadiun",
+      "name": "JTV Madiun",
+      "tagline": "TV lokal Jawa Timur â€” Madiun",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": "jtv.png",
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 6778,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:20.961Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Cadangan Chunklist)",
+          "stream": "http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jtv-malang",
+      "group": "jtvmalang",
+      "name": "JTV Malang",
+      "tagline": "TV lokal Jawa Timur â€” Malang",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": "jtv.png",
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 4908,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:21.666Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Cadangan Chunklist)",
+          "stream": "http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jtv-surabaya",
+      "group": "jtvsurabaya",
+      "name": "JTV Surabaya",
+      "tagline": "TV lokal Jawa Timur â€” Surabaya",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": "jtv.png",
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 120,
+        "error": null,
+        "checked_at": "2026-11-19T04:53:24.711Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Cadangan Chunklist)",
+          "stream": "http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kilisuci-tv",
+      "group": "kilisucitv",
+      "name": "Kilisuci TV",
+      "tagline": "TV lokal Jawa Timur â€” Kediri",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "http://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": null,
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "unknown",
+      "status": {
+        "ok": false,
+        "http": 404,
+        "ms": 35,
+        "error": "HTTP 404 - app kstv tidak tersedia di server Wowza (sementara)",
+        "checked_at": "2026-11-20T00:00:00.000Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "http://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Wowza chunklist)",
+          "stream": "http://5bf7b725107e5.streamlock.net/kstv/kstv/chunklist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "madu-tv",
+      "group": "madutv",
+      "name": "Madu TV",
+      "tagline": "TV lokal Jawa Timur â€” Tulungagung",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "https://re1.siar.us/madutv/hd720/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": null,
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 1231,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:25.196Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "https://re1.siar.us/madutv/hd720/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Cadangan)",
+          "stream": "http://re1.siar.us/madutv/hd720/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "suara-surabaya",
+      "group": "suarasurabaya",
+      "name": "Suara Surabaya",
+      "tagline": "Radio visual Jawa Timur â€” Surabaya",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "https://ssfm.siar.us/ssfm/live/playlist.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": null,
+      "has_drm": false,
+      "source": "iptv-org",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 3405,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:29.010Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "https://ssfm.siar.us/ssfm/live/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (Cadangan)",
+          "stream": "http://ssfm.siar.us/ssfm/live/playlist.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv9-nusantara",
+      "group": "tv9nusantara",
+      "name": "TV9 Nusantara",
+      "tagline": "Santun Menyejukkan",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "http://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8",
+      "headers": null,
+      "logo": "e6a0fd167a0c.png",
+      "has_drm": false,
+      "source": "room142",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 3202,
+        "error": null,
+        "checked_at": "2026-11-19T03:35:12.246Z"
+      },
+      "servers": [
+        {
+          "name": "Server 1 (Utama)",
+          "stream": "http://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8",
+          "headers": {}
+        },
+        {
+          "name": "Server 2 (Dens h37 Nusantara TV)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h37/01.m3u8",
+          "headers": {
+            "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tvri-jatim",
+      "group": "tvrijatim",
+      "name": "TVRI Jawa Timur",
+      "tagline": "TVRI daerah â€” Jawa Timur",
+      "country": "ID",
+      "regional": true,
+      "region": "Jawa Timur",
+      "type": "hls",
+      "premium": false,
+      "stream": "https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+        "Accept": "*/*"
+      },
+      "logo": "/logos/15d7d8a1bce1.png",
+      "has_drm": false,
+      "source": "tvri",
+      "national": false,
+      "relay": false,
+      "health": "ok",
+      "status": {
+        "ok": true,
+        "http": 200,
+        "ms": 150,
+        "error": null,
+        "checked_at": "2026-11-19T04:53:24.712Z"
+      },
+      "tvri_region": "Jawa Timur",
+      "servers": [
+        {
+          "name": "Server 1 (TVRI Balancer SSL)",
+          "stream": "https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        },
+        {
+          "name": "Server 2 (TVRI Balancer HTTP)",
+          "stream": "http://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
+            "Accept": "*/*"
+          }
+        }
+      ]
+    }
+  ]
+}
