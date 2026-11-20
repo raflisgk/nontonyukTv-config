@@ -492,11 +492,11 @@
       "region": null,
       "type": "hls",
       "premium": false,
-      "stream": "https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8",
+      "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8?app_type=web&userid=lite&chname=Metro_TV",
       "headers": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://www.metrotvnews.com/",
-        "Origin": "https://www.metrotvnews.com"
+        "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+        "Referer": "https://www.dens.tv/",
+        "Origin": "https://www.dens.tv"
       },
       "logo": "2eee7298fbc8.png",
       "has_drm": false,
@@ -507,27 +507,36 @@
       "status": {
         "ok": true,
         "http": 200,
-        "ms": 2188,
+        "ms": 320,
         "error": null,
-        "checked_at": "2026-11-19T03:35:09.615Z"
+        "checked_at": "2026-11-20T04:20:00.000Z"
       },
       "servers": [
         {
-          "name": "Server 1 (Medcom Edge SSL)",
-          "stream": "https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8",
+          "name": "Server 1 (Dens ABR)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8?app_type=web&userid=lite&chname=Metro_TV",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://www.metrotvnews.com/",
-            "Origin": "https://www.metrotvnews.com"
+            "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv"
           }
         },
         {
-          "name": "Server 2 (Medcom Edge HTTP)",
-          "stream": "http://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8",
+          "name": "Server 2 (Dens 720p)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8?app_type=web&userid=lite&chname=Metro_TV",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://www.metrotvnews.com/",
-            "Origin": "https://www.metrotvnews.com"
+            "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv"
+          }
+        },
+        {
+          "name": "Server 3 (Dens 360p)",
+          "stream": "https://op-flashcon-digdayahd-1.dens.tv/h/h12/02.m3u8?app_type=web&userid=lite&chname=Metro_TV",
+          "headers": {
+            "User-Agent": "DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",
+            "Referer": "https://www.dens.tv/",
+            "Origin": "https://www.dens.tv"
           }
         }
       ]
